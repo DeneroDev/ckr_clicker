@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ca4d1cf95389dc409d7476e414fc4a6, type: 3}
+  m_Name: ClickerBalanceConfig
+  m_EditorClassIdentifier: Assembly-CSharp::CKRClicker.UI.Clicker.ClickerBalanceConfig
+  <InitialEnergy>k__BackingField: 1000
+  <MaxEnergy>k__BackingField: 1000
+  <TapEnergyCost>k__BackingField: 1
+  <TapCurrencyReward>k__BackingField: 1
+  <AutoCollectIntervalSec>k__BackingField: 3
+  <AutoCollectEnergyCost>k__BackingField: 1
+  <AutoCollectCurrencyReward>k__BackingField: 1
+  <EnergyRegenIntervalSec>k__BackingField: 10
+  <EnergyRegenAmount>k__BackingField: 10
+  <TapParticleAddressableKey>k__BackingField: Particle/ClickParticle
+  <TapParticlePrewarmCount>k__BackingField: 8
+  <FloatingCurrencyTextAddressableKey>k__BackingField: Particle/TextParticle
+  <FloatingCurrencyTextPrewarmCount>k__BackingField: 8
